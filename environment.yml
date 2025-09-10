@@ -1,7 +1,14 @@
 name: prompt-caching
 channels:
+  - defaults
   - https://repo.anaconda.com/pkgs/main
   - https://repo.anaconda.com/pkgs/r
 dependencies:
   - python=3.13
-prefix: /Users/vohuutridung/anaconda3/envs/prompt-caching
+  - streamlit
+  - pip
+  - pip:
+      - crewai
+      - crewai-tools
+      - python-dotenv
+      - protonx
